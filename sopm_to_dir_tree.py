@@ -14,7 +14,7 @@ if __name__ == "__main__":
         OutDir = str(sys.argv[2])
 
     else:
-        print "Correct usage is : <./email_reader.py> <Path to sopm> <Path for output dir>"
+        print "Correct usage is : <./sopmt_to_dir_tree.py> <Path to sopm> <Path for output dir>"
         sys.exit()
 
 
