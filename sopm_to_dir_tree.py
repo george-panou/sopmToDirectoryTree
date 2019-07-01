@@ -1,3 +1,5 @@
+# A python 2 script to aid with OTRS development
+# To convert to pytohn 3 simply comment the 19th line and uncomment the 20th line
 import sys
 import shutil
 import errno
@@ -15,6 +17,7 @@ if __name__ == "__main__":
 
     else:
         print "Correct usage is : <./sopmt_to_dir_tree.py> <Path to sopm> <Path for output dir>"
+        #print ("Correct usage is : <./sopmt_to_dir_tree.py> <Path to sopm> <Path for output dir>")
         sys.exit()
 
 
